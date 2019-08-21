@@ -1,0 +1,175 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header-top {
+    background: url("../img/header.png") no-repeat;
+    padding-bottom: 48px;
+}
+
+.logo{
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+.phone{
+    padding-top: 71px;
+}
+.header-menu {
+    background: #000000;
+    opacity: 0.6;
+    /*mix-blend-mode: soft-light;*/
+}
+.nav {
+    opacity: 1s;
+}
+.nav a {
+    color: #ffffff;
+
+}
+#main{
+    background: url("../img/recycle6.png");
+}
+.butzone {
+
+}
+/*button{*/
+/*    background: none;*/
+/*    border: none;*/
+/*    width: 250px;*/
+/*    height: 94px;*/
+/*    padding: 0;*/
+/*}*/
+.bord{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.infozone {
+    margin-right: 2px;
+    margin-left: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.butzone{
+
+}
+.butzonetwo {
+    margin-bottom: 20px;
+}
+#inf1 {
+
+    display: block;
+    /*font-size: 25px;*/
+}
+#inf1 .card{
+    background: #0072bd;
+}
+#inf2 {
+    display: none;
+}
+#inf2 .card{
+    background: #009a78;
+}
+#inf3 {
+    display: none;
+}
+#inf3 .card{
+    background: #ffb520;
+}
+#inf4 {
+    display: none;
+}
+#inf4 .card{
+    background: #ff5b3c;
+}
+#inf5 {
+    display: none;
+}
+#inf5 .card{
+    background: #514841;
+}
+#inf6 {
+    display: none;
+}
+#inf6 .card{
+    background: #5e9dca;
+}
+#inf7 {
+    display: none;
+}
+#inf7 .card{
+    background: #8469a1;
+}
+#inf8 {
+    display: none;
+}
+#inf8 .card{
+    background: #773a56;
+}
+
+.footer {
+    background: url("../img/footer.jpg");
+}
+.footer-logo{
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+.olx{
+    width: 64px;
+    height: 64px;
+    margin-left: 190px;
+    margin-right: 33px;
+    margin-top: 60px;
+}
+.insta {
+    width: 64px;
+    height: 64px;
+    margin-top: 60px;
+}
+.footer-phone{
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 576px) {
+    .phone {
+        font-size: 15px;
+        padding-top: 63px;
+        margin-left: 25px;
+    }
+    .phone img {
+        height: 20px;
+    }
+    .header-top {
+        padding-bottom: 30px;
+    }
+    #but1 img, #but2 img, #but5 img, #but6 img {
+        padding-bottom: 10px;
+    }
+    .inf_more{
+        margin-bottom: 10px;
+    }
+    .sociale {
+        padding-top: 35px;
+        padding-left: 40px;
+    }
+    .olx{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+    .insta {
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+    }
+    .footer-phone{
+        margin-top: 10px;
+        text-align: center !important;
+    }
+    .footer-logo {
+        margin-top: 20px;
+    }
+
+
+}
