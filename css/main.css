@@ -1,10 +1,11 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffffff;
+    color: #000000;
     /*-webkit-text-stroke: 1px black;*/
 }
 a {
     text-decoration: none !important;
+    color: #000 !important;
 }
 .header-top {
     background: url("../img/header.png") no-repeat;
@@ -16,20 +17,23 @@ a {
     padding-bottom: 41px;
 }
 .phone{
-    padding-top: 71px;
+    padding-top: 100px;
 }
 .header-menu {
     background: rgba(0, 0, 0, 0.6);
-    /*background: #000000;*/
-    /*opacity: 0.6;*/
-    /*mix-blend-mode: soft-light;*/
+
 }
 .nav {
-    /*opacity: 1;*/
+
 }
 .nav a {
-    color: #ffffff;
-
+    color: #ffffff !important;
+}
+.dropdown-item:hover{
+    background: rgba(0, 0, 0, 0.9);
+}
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0.8);
 }
 #main{
     background: url("../img/recycle6.png");
@@ -133,6 +137,19 @@ a {
 }
 .footer-phone{
     margin-top: 75px;
+}
+.contact {
+    text-align: center;
+    align-items: center;
+}
+.contact span {
+    /*display: block;*/
+}
+.phone-img {
+    margin-right: 10px;
+}
+.phone a, .footer-phone a{
+    color: #ffffff !important;
 }
 
 @media screen and (max-width: 576px) {
