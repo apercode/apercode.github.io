@@ -212,14 +212,16 @@ h5 {
 
 }
 @media screen and (max-width: 1490px) {
-    .phone{
+    .phone {
         padding-top: 90px;
         font-size: 30px;
     }
+
     .olx {
         width: 64px;
         height: 64px;
         margin-left: 70px;
         margin-right: 33px;
         margin-top: 60px;
+    }
 }
