@@ -168,23 +168,68 @@ h5 {
 }
 
 
+
+/*@media (min-width: 768px) {*/
+/*    */
+/*}*/
+@media screen and (max-width: 1490px) {
+    .phone {
+        padding-top: 90px;
+        font-size: 30px;
+    }
+
+    .olx {
+        width: 64px;
+        height: 64px;
+        margin-left: 70px;
+        margin-right: 33px;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 766px) {
+    .phone {
+        padding-top: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .olx {
+        width: 64px;
+        height: 64px;
+        margin-left: 70px;
+        margin-right: 33px;
+        margin-top: 60px;
+    }
+    .footer-phone {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .logo {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .header-top {
+        padding-bottom: 10px;
+    }
+}
 @media screen and (max-width: 576px) {
     .logo {
         padding-bottom: 21px;
     }
     .phone {
-        font-size: 15px;
+        font-size: 30px;
         padding-top: 0px !important;
         margin-left: 25px;
     }
     .phone img {
-        height: 20px;
+        /*height: 20px;*/
     }
     .header-top {
         padding-bottom: 30px;
     }
     #but1 img, #but2 img, #but5 img, #but6 img {
-        padding-bottom: 0px;
+        padding-bottom: 10px;
     }
 
     .inf_more{
@@ -208,53 +253,13 @@ h5 {
     }
     .footer-phone{
         margin-top: 10px;
-        text-align: center !important;
+        text-align: center;
+        font-size: 30px;
     }
     .footer-logo {
         margin-top: 20px;
-    }
-
-}
-/*@media (min-width: 768px) {*/
-/*    */
-/*}*/
-@media screen and (max-width: 1490px) {
-    .phone {
-        padding-top: 90px;
+        margin-bottom: 10px;
         font-size: 30px;
     }
 
-    .olx {
-        width: 64px;
-        height: 64px;
-        margin-left: 70px;
-        margin-right: 33px;
-        margin-top: 60px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .phone {
-        padding-top: 0px;
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .olx {
-        width: 64px;
-        height: 64px;
-        margin-left: 70px;
-        margin-right: 33px;
-        margin-top: 60px;
-    }
-    .footer-phone {
-        margin-top: 0px;
-        text-align: center;
-    }
-    .logo {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .header-top {
-        padding-bottom: 10px;
-    }
 }
