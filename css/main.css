@@ -166,6 +166,9 @@ a {
 h5 {
     text-align: center;
 }
+.timetotime:nth-child(1):before {
+    content: url("/img/time-64.png");
+}
 
 
 
@@ -212,6 +215,10 @@ h5 {
     .header-top {
         padding-bottom: 10px;
     }
+    .contact p{
+        text-align: left;
+    }
+
 }
 @media screen and (max-width: 576px) {
     .logo {
