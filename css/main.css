@@ -170,7 +170,9 @@ h5 {
     content: url("/img/time-64.png");
 }
 
-
+.tester img {
+    width: 300px;
+}
 
 /*@media (min-width: 768px) {*/
 /*    */
