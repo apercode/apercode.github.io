@@ -61,6 +61,10 @@ a {
     margin-bottom: 20px;
     color: #fff !important;
 }
+
+.infozone p {
+    padding-left: 25px;
+}
 .butzone{
 
 }
@@ -173,6 +177,7 @@ h5 {
 .tester img {
     width: 300px;
 }
+
 
 /*@media (min-width: 768px) {*/
 /*    */
