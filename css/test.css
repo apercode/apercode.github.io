@@ -13,9 +13,12 @@ body {
     border-radius: 10px;
     text-decoration: none;
     font-size: 20px;
-    height: 112px;
-    width: 229px;
+    /* height: 112px;
+    width: 229px; */
     margin-right: 1em;
+  }
+  .btn .img-fluid{
+    max-width: 50%;
   }
   .btn-primary-1 {
     background-color: #0072bd;
