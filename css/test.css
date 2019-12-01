@@ -1,0 +1,89 @@
+body {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  
+  .forpadding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .btn {
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    height: 112px;
+    width: 229px;
+    margin-right: 1em;
+  }
+  .btn-primary-1 {
+    background-color: #0072bd;
+    border-bottom: 5px solid #00538a;
+  }
+  .btn-primary-1:hover {
+    color: #ffffff;
+    background-color: #57bcff;
+  }
+  .btn-primary-2 {
+    background-color: #009a78;
+    border-bottom: 5px solid #006750;
+  }
+  .btn-primary-2:hover {
+    color: #ffffff;
+    background-color: #00a984;
+  }
+  .btn-primary-3 {
+    background-color: #ffb520;
+    border-bottom: 5px solid #ec9e00;
+  }
+  .btn-primary-3:hover {
+    color: #ffffff;
+    background-color: #ffba2f;
+  }
+  .btn-primary-4 {
+    background-color: #ff5b3c;
+    border-bottom: 5px solid #ff3009;
+  }
+  .btn-primary-4:hover {
+    color: #ffffff;
+    background-color: #ff684b;
+  }
+  .btn-primary-5 {
+    background-color: #514841;
+    border-bottom: 5px solid #352f2a;
+  }
+  .btn-primary-5:hover {
+    color: #ffffff;
+    background-color: #595048;
+  }
+  .btn-primary-6 {
+    background-color: #5e9dca;
+    border-bottom: 5px solid #3d85b8;
+  }
+  .btn-primary-6:hover {
+    color: #ffffff;
+    background-color: #6aa4ce;
+  }
+  .btn-primary-7 {
+    background-color: #8469a1;
+    border-bottom: 5px solid #6b5384;
+  }
+  .btn-primary-7:hover {
+    color: #ffffff;
+    background-color: #8c72a7;
+  }
+  .btn-primary-8 {
+    background-color: #773a56;
+    border-bottom: 5px solid #55293d;
+  }
+  .btn-primary-8:hover {
+    color: #ffffff;
+    background-color: #813f5d;
+  }
+  
+  .img-test {
+    max-width: 33%;
+    height: auto;
+  }
+  
