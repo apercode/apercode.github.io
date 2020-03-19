@@ -271,6 +271,21 @@ h5 {
 .tester img {
     width: 300px;
 }
+
+.priorities{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  
+  }
+  .priorities__item {
+    display: inline-block;
+  
+  }
+  .priorities__item img {
+    height: 100px;
+    width: 100px;
+  }
 /* .imgtest {
     vertical-align: middle;
 }
