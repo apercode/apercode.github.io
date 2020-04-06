@@ -80,3 +80,6 @@ document.getElementById('but8').onclick = function but8 (){
     document.getElementById('inf7').style.display = 'none';
     document.getElementById('inf8').style.display = 'block';
 }
+document.getElementById('contactButton').addEventListener('click', function() {
+    insert_event_code_here;
+    }, false);
