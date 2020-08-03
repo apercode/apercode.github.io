@@ -9,6 +9,7 @@ a {
 }
 .header-top {
     background: url("../img/header.png") no-repeat;
+    background-size: cover;
     padding-bottom: 48px;
 }
 
@@ -85,6 +86,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     margin-right: 1em;
+      margin-bottom: 1em;
   }
   .btn .img-fluid {
     max-width: 50%;
@@ -213,7 +215,8 @@ a {
 }
 
 .footer {
-    background: url("../img/footer.jpg");
+    background: url("../img/footer.png") no-repeat;
+    background-size: cover;
 }
 .footer-logo{
     margin-top: 41px;
